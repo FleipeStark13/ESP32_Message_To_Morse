@@ -5,7 +5,7 @@
 // Width = 16, Height = 2
 #define LCD_COLUMNS     16
 #define LCD_ROWS        2
-
+#define LCD_ADDRESS     0x27
 #define PLAY_SPEED      1 // The playback speed of each letter. 
 
 // Each symbol had your own speed.

@@ -1,4 +1,5 @@
 #include "translator.h"
+
 const char* MORSE_ALPHABET[] = {
     ".-",       // A
     "-...",     // B
@@ -62,7 +63,7 @@ void processChar(char c) {
     } 
 }
 
-void translator(String word) {
+void translator(const char* word) {
     for (int i = 0; word[i] != '\0'; i++) {
         processChar(word[i]);
     }
