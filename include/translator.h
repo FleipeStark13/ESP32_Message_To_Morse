@@ -7,6 +7,6 @@
 void sendDash();
 void sendDot();
 void processChar(char c);
-void translator(const char* word);
+void translator(String word);
 
 #endif
